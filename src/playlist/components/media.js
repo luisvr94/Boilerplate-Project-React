@@ -39,7 +39,7 @@ pruebaClick=(event) =>{
 
     return (
     // style={styles.container} -->css inline
-    <div className="Media" onClick={this.pruebaClick}>
+    <div className="Media" onClick={this.props.openModal}>
       <div >
         <img className="Media-image" src={this.props.cover} width={50} height={50}/>
         <h3>Hola Mundo
