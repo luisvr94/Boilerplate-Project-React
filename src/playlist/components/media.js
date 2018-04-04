@@ -21,7 +21,7 @@ class Media extends PureComponent {
   //FORMA ES7 CAMBIAR ESTADOS
   state={
     author:this.props.author
-  };
+  }
 pruebaClick=(event) =>{
     console.log("event",this.props.title);
     this.setState({author:"Gaby"});
@@ -35,7 +35,7 @@ pruebaClick=(event) =>{
         width: 50,
         border: '1px solid red'
       }
-    };
+    }
 
     return (
     // style={styles.container} -->css inline
